@@ -9,7 +9,7 @@ public class B2193 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
-        int[] d = new int[n+1];
+        long[] d = new long[91];
 
         d[0] = 0;
         d[1] = 1;
